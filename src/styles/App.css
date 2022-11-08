@@ -1,0 +1,11 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4em;
+}
+
+.input-field {
+    display: inline-flex;
+    align-items: center;
+}

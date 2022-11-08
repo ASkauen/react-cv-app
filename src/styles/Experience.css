@@ -1,0 +1,34 @@
+#new-job {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.job {
+    display: inline-flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.delete-button {
+    height: min-content;
+    padding: 5px;
+}
+
+.job-info {
+    display: flex;
+    flex-direction: column;
+}
+
+#experience {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.spacer {
+    flex-grow: 1;
+}

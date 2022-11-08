@@ -1,0 +1,34 @@
+#new-study {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.study {
+    display: inline-flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.delete-button {
+    height: min-content;
+    padding: 5px;
+}
+
+.study-info {
+    display: flex;
+    flex-direction: column;
+}
+
+#education {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.spacer {
+    flex-grow: 1;
+}
