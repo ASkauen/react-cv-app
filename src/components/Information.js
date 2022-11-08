@@ -20,7 +20,6 @@ class Information extends Component {
     const name = document.getElementById("name-input").value
     const email = document.getElementById("email-input").value
     const phone = document.getElementById("phone-input").value
-    console.log(this)
     this.setState({
       edit: false,
       name: name,
